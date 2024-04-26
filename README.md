@@ -20,7 +20,12 @@ True, there is no free lunch and you have to pay for everything: instead of stan
 * Contains a container of objects signed for receive changes
 * Has registration and unsubscribe functions: ***registerListener*** and ***unregisterListener***.
 * All signed elements must implement the ***IUpdate*** interface.
-* Singleton ***UpdateAdapter*** creates in ***MainActivity*** class on start application in overrided function ***onCreate***: _UpdateAdapter.newInstance()_;
+* Singleton ***UpdateAdapter*** creates in ***MainActivity*** class on start application in overrided function ***onCreate***: _UpdateAdapter.newInstance()_;.
+
+### IUpdate Interface
+All GUI elements that are subscribed to changes must implements this interface, supporting 2 methods:
+* updateValue and
+* isSwitch. This method allows you to separate different types of GUI elements by update method and simplify processing. In essence, this method is a trick that allows you to circumvent the difficulties that arise in a real application. At this stage this is quite acceptable, because It's about sketching.
 
 ## Movie
 
