@@ -32,6 +32,8 @@ There are only ***three*** of them and they are derived from the standard classe
 * Original classes: CustomTextView, CustomImageView and CustomButton. When describing the layout of fragment ***PageFragment*** in the ***fragment_page.xml*** file, references to these classes are used.
 * These classes implement the ***onAttachedToWindow*** and ***onDetachedFromWindow*** functions, which provide a subscription to receive changes: registering an element as a listener in the UpdateAdapter, as well as deleting the subscription if the fragment goes out of scope. Also pay attention to the implementation of the ***UpdateValue*** and ***isSwitch*** methods in each of the above classes. It’s easy to guess that ***CustomTextView*** is designed to visualize text values, ***CustomButton*** is for switching buttons from enable to disable and vice versa, and ***CustomImageView*** ensures that images are replaced from two ones exists. Naturally, in a real application these functions can be much more sophisticated and complex.
 
+### Class PeriodicAction
+Maybe some interest may class, which updates subscribed values ​​in the updateWidgets method. It gets a copy of the list of listeners from the ***UpdateAdapter*** and updates each element in the list depending on the it's type.
 
 ## Movie
 
