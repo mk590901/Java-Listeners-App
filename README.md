@@ -16,6 +16,12 @@ True, there is no free lunch and you have to pay for everything: instead of stan
 
 ## What need to pay attention to in the code
 
+### UpdateAdapter class
+* Contains a container of objects signed for receive changes
+* Has registration and unsubscribe functions: ***registerListener*** and ***unregisterListener***.
+* All signed elements must implement the ***IUpdate*** interface.
+* Singleton ***UpdateAdapter*** creats in ***MainActivity*** class on start application in overrided function ***onCreate***: _UpdateAdapter.newInstance()_;
+
 ## Movie
 
 https://github.com/mk590901/Java-Listeners-App/assets/125393245/57e2f0e8-422b-47b5-a6ff-7df0fd160a68
