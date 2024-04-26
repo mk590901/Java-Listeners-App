@@ -24,8 +24,8 @@ True, there is no free lunch and you have to pay for everything: instead of stan
 
 ### IUpdate Interface
 All GUI elements that are subscribed to changes must implements this interface, supporting 2 methods:
-* updateValue and
-* isSwitch. This method allows you to separate different types of GUI elements by update method and simplify processing. In essence, this method is a trick that allows you to circumvent the difficulties that arise in a real application. At this stage this is quite acceptable, because It's about sketching.
+* ***updateValue*** and
+* ***isSwitch***. _This method allows to separate different types of GUI elements by update method and simplify processing. In essence, this method is a trick that allows you to circumvent the difficulties that arise in a real application. At this stage this is quite acceptable, because It's about sketching_.
 
 ## Movie
 
