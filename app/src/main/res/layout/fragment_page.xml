@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_aquamarine"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_center"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal_center"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <com.widget.listenersapp.CustomTextView
+        android:id="@+id/value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textSize="@dimen/size_32dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontal_center"
+        app:layout_constraintEnd_toEndOf="@+id/vertical_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.widget.listenersapp.CustomTextView
+        android:id="@+id/value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textSize="@dimen/size_32dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontal_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertical_center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.widget.listenersapp.CustomTextView
+        android:id="@+id/value3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textSize="@dimen/size_32dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_center"
+        app:layout_constraintEnd_toEndOf="@+id/vertical_center"
+        app:layout_constraintStart_toStartOf="parent"
+    />
+
+    <com.widget.listenersapp.CustomTextView
+        android:id="@+id/value4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textSize="@dimen/size_32dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vertical_center"
+         />
+
+    <com.widget.listenersapp.CustomButton
+        android:id="@+id/customButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textAllCaps="false"
+        android:text="@string/custom_button"
+        android:layout_marginBottom="@dimen/size_56dp"
+        android:background="@drawable/button_round_selector"
+        android:textColor="@color/rounded_solid_button_text_color_selector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.6"
+        android:visibility="visible"/>
+
+    <com.widget.listenersapp.CustomImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/size_128dp"
+        android:layout_height="@dimen/size_128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/value2"
+        app:layout_constraintBottom_toBottomOf="@+id/value4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pinch_zoom_in"
+        android:contentDescription="@string/todo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

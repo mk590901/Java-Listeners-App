@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#FF0000</color>
+    <color name="blue_prime">#005AA8</color>
+    <color name="blue_dark">#00325D</color>
+    <color name="blue_prime_dark">#19466d</color>
+    <color name="blue_active">#007AFF</color>
+    <color name="blue_aquamarine">#A1DBF1</color>
+
+    <color name="white_smoke">#F8F8F8</color>
+    <color name="white_smoke_2">#F0F0F0</color>
+    <color name="grey_dark">#b3b6c3</color>
+    <color name="grey_light">#cbd3ee</color>
+    <color name="grey_medium">#575A61</color>
+    <color name="grey_indicator">#8489A1</color>
+
+    <color name="white_full">#FFFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+
+    <color name="card_color">@color/white_smoke</color>
+    <color name="card_item_color">@color/white_smoke_2</color>
+    <color name="button_text_color">@color/blue_active</color>
+    <color name="progress_color">@color/blue_active</color>
+    <color name="battery_indicator_color">@color/grey_indicator</color>
+
+    <color name="secondary_color">@color/blue_dark</color>
+    <color name="primary_color">@color/blue_prime</color>
+
+    <color name="trans">#00000000 </color>
+</resources>

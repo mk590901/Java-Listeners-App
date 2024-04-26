@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Listeners App</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_app">"Exit from application"</string>
+    <string name="are_you_sure">"Are you sure?"</string>
+    <string name="todo" />
+    <string name="empty">"??"</string>
+    <string name="custom_button">Custom Button</string>
+    <string name="open_fragment">Open backstack fragment</string>
+    <string name="control_panel">Control Panel</string>
+</resources>

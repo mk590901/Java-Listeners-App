@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Buttons -->
+    <dimen name="buttons_elevation">10dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="stroke_basic">1dp</dimen>
+    <dimen name="stroke_thick">1.5dp</dimen>
+
+    <!-- text sizes -->
+    <dimen name="title_size_dialog">18dp</dimen>
+    <dimen name="title_size">20dp</dimen>
+    <dimen name="text_size">12dp</dimen>
+    <dimen name="text_size_med">14dp</dimen>
+    <dimen name="text_size_large">24dp</dimen>
+    <dimen name="text_size_small">10dp</dimen>
+    <dimen name="text_size_side_bar">10dp</dimen>
+    <dimen name="status_bar_title_size">22dp</dimen>
+
+    <dimen name="text_field_padding">4dp</dimen>
+    <dimen name="show_password_margin">1dp</dimen>
+
+    <dimen name="switch_height">40dp</dimen>
+    <dimen name="switch_width">76dp</dimen>
+
+    <dimen name="smart_home_spacing">6dp</dimen>
+    <dimen name="smart_home_outer_padding">11dp</dimen>
+    <dimen name="smart_home_padding">8dp</dimen>
+    <dimen name="smart_home_text_size_big">30dp</dimen>
+    <dimen name="smart_home_text_size_small">@dimen/text_size</dimen>
+    <dimen name="smart_home_tile_radius">6dp</dimen>
+
+    <dimen name="home_care_text_size_big">30dp</dimen>
+    <dimen name="home_care_text_size_label">12dp</dimen>
+    <dimen name="home_care_text_size_secondary">16dp</dimen>
+
+    <dimen name="button_radius">4dp</dimen>
+    <dimen name="button_large_radius">24dp</dimen>
+
+    <dimen name="wizard_text_size">12dp</dimen>
+    <dimen name="wizard_check_box_text_size">12dp</dimen>
+    <dimen name="wizard_image_size">74dp</dimen>
+    <dimen name="wizard_help_button_size">36dp</dimen>
+
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_3dp">3dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_5dp">5dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_12dp">12dp</dimen>
+    <dimen name="size_14dp">14dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_22dp">22dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_36dp">36dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_56dp">56dp</dimen>
+    <dimen name="size_90dp">90dp</dimen>
+    <dimen name="size_128dp">128dp</dimen>
+    <dimen name="size_200dp">200dp</dimen>
+
+    <!-- Side bar items -->
+    <dimen name="side_bar_item_bottom_margine">@dimen/size_14dp</dimen>
+
+    <!-- Wizard -->
+    <dimen name="wizard_items_area_height">96dp</dimen>
+    <dimen name="wizard_button_width">480dp</dimen>
+    <dimen name="wizard_margine_button_bottom">@dimen/size_8dp</dimen>
+    <dimen name="wizard_margine_button_top">@dimen/size_12dp</dimen>
+    <dimen name="wizard_margine_list_bottom">@dimen/size_16dp</dimen>
+    <dimen name="wizard_margine_list_top">@dimen/size_10dp</dimen>
+    <dimen name="wizard_margine_list_side">@dimen/size_30dp</dimen>
+    <dimen name="draw_view_margine_top">@dimen/size_10dp</dimen>
+    <dimen name="draw_view_margine_side">@dimen/size_20dp</dimen>
+    <dimen name="draw_view_height">140dp</dimen>
+    <dimen name="button_settings_width">120dp</dimen>
+    <dimen name="button_settings_heigth">56dp</dimen>
+
+    <dimen name="capability_tile_height">@dimen/size_128dp</dimen>
+
+
+</resources>

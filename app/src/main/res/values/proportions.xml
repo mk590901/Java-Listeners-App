@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="button_height_fraction" type="integer" format="float">0.32</item>
+    <item name="button_height_fraction_2" type="integer" format="float">0.18</item>
+    <item name="button_height_fraction_double" type="integer" format="float">0.2</item>
+    <item name="button_height_fraction_onboarding" type="integer" format="float">0.092</item>
+    <item name="sidebar_logo_width_fraction" type="integer" format="float">0.06</item>
+    <item name="text_height_fraction" type="integer" format="float">0.3</item>
+    <item name="text_height_fraction_2" type="integer" format="float">0.5</item>
+    <item name="header_height_fraction" type="integer" format="float">0.075</item>
+
+</resources>
