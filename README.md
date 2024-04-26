@@ -35,9 +35,18 @@ There are only ***three*** of them and they are derived from the standard classe
 ### Class PeriodicAction
 Maybe some interest may class, which updates subscribed values ​​in the updateWidgets method. It gets a copy of the list of listeners from the ***UpdateAdapter*** and updates each element in the list depending on the it's type.
 
+### AND,
+It is worth paying attention to the ***PageFragment*** class. There is not a single line in it that would hint at any GUI elements that were included in the layout, or operations with these elements. However, judging by the attached media file, updates are happening.
+
 ## Movie
 
 https://github.com/mk590901/Java-Listeners-App/assets/125393245/57e2f0e8-422b-47b5-a6ff-7df0fd160a68
+
+## Appendix
+
+Please note that when closing of pager all listeners are removed:
+
+![Logview 2024-04-26 14-26-59](https://github.com/mk590901/Java-Listeners-App/assets/125393245/f5b5e8a7-4bdc-429d-8693-7592c7258a12)
 
 
 
