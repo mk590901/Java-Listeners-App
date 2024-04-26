@@ -20,7 +20,7 @@ True, there is no free lunch and you have to pay for everything: instead of stan
 * Contains a container of objects signed for receive changes
 * Has registration and unsubscribe functions: ***registerListener*** and ***unregisterListener***.
 * All signed elements must implement the ***IUpdate*** interface.
-* Singleton ***UpdateAdapter*** creats in ***MainActivity*** class on start application in overrided function ***onCreate***: _UpdateAdapter.newInstance()_;
+* Singleton ***UpdateAdapter*** creates in ***MainActivity*** class on start application in overrided function ***onCreate***: _UpdateAdapter.newInstance()_;
 
 ## Movie
 
