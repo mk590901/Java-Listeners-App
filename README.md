@@ -14,6 +14,8 @@ Can, of course, solve the problem artificially: when closing the pager, forceful
 * Moreover, this approach greatly simplifies updating views. There is no need to filter or assign changes inside fragment itself.
 True, there is no free lunch and you have to pay for everything: instead of standard elements, need to use custom elements with overrided ***onAttachedToWindow*** and ***onDetachedFromWindow***.
 
+## What need to pay attention to in the code
+
 ## Movie
 
 https://github.com/mk590901/Java-Listeners-App/assets/125393245/57e2f0e8-422b-47b5-a6ff-7df0fd160a68
