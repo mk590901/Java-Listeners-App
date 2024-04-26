@@ -27,6 +27,12 @@ All GUI elements that are subscribed to changes must implements this interface, 
 * ***updateValue*** and
 * ***isSwitch***. _This method allows to separate different types of GUI elements by update method and simplify processing. In essence, this method is a trick that allows to circumvent the difficulties that arise in a real application. At this stage this is quite acceptable, because It's about sketching_.
 
+### Custom GUI elements
+There are only ***three*** of them and they are derived from the standard classes ***TextView***, ***Button*** and ***ImageView***.
+* Original classes: CustomTextView, CustomImageView and CustomButton. When describing the layout of fragment ***PageFragment*** in the ***fragment_page.xml*** file, references to these classes are used.
+* These classes implement the ***onAttachedToWindow*** and ***onDetachedFromWindow*** functions, which provide a subscription to receive changes: registering an element as a listener in the UpdateAdapter, as well as deleting the subscription if the fragment goes out of scope. Also pay attention to the implementation of the ***UpdateValue*** and ***isSwitch*** methods in each of the above classes. It’s easy to guess that ***CustomTextView*** is designed to visualize text values, ***CustomButton*** is for switching buttons from enable to disable and vice versa, and ***CustomImageView*** ensures that images are replaced from two ones exists. Naturally, in a real application these functions can be much more sophisticated and complex.
+
+
 ## Movie
 
 https://github.com/mk590901/Java-Listeners-App/assets/125393245/57e2f0e8-422b-47b5-a6ff-7df0fd160a68
